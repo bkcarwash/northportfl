@@ -153,16 +153,17 @@ export default function HomePage() {
             </span>
           </h2>
           <p className="text-[#8C95A6] mb-8 text-lg">
-            No appointment needed for express wash. Drive in any time — we&apos;re open daily on the Tamiami Trail.
+            Call us now or book instantly on WhatsApp — we&apos;re open daily 7 AM to 7 PM on the Tamiami Trail.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
-              href={BUSINESS.mapUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-8 py-4 rounded-xl bg-[#00C2FF] text-black font-bold text-lg hover:bg-[#00AADE] transition-colors shadow-[0_0_30px_rgba(0,194,255,0.3)]"
+              href={BUSINESS.phone.href}
+              className="inline-flex items-center gap-2 px-8 py-4 rounded-xl bg-[#00C2FF] text-black font-bold text-lg hover:bg-[#00AADE] transition-colors shadow-[0_0_30px_rgba(0,194,255,0.35)] hover:shadow-[0_0_45px_rgba(0,194,255,0.5)]"
             >
-              Get Directions
+              <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+              </svg>
+              Call Now — {BUSINESS.phone.display}
             </a>
             <a
               href={BUSINESS.whatsapp.hrefBooking}
@@ -175,15 +176,12 @@ export default function HomePage() {
               </svg>
               Book on WhatsApp
             </a>
-            <a
-              href={BUSINESS.phone.href}
-              className="inline-flex items-center gap-2 px-8 py-4 rounded-xl bg-white/5 border border-white/15 text-white font-semibold text-lg hover:bg-white/10 transition-colors"
-            >
-              {BUSINESS.phone.display}
-            </a>
           </div>
           <p className="mt-6 text-sm text-[#8C95A6]">
-            {BUSINESS.address.street} · North Port, FL 34287 · Open Daily until 7 PM
+            {BUSINESS.address.street} · North Port, FL 34287 · Open Daily 7 AM – 7 PM ·{" "}
+            <a href={BUSINESS.mapUrl} target="_blank" rel="noopener noreferrer" className="hover:text-[#00C2FF] transition-colors underline underline-offset-2">
+              Get Directions
+            </a>
           </p>
         </div>
       </section>

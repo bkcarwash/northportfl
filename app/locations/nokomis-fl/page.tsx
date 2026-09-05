@@ -105,8 +105,11 @@ export default function NokomisPage() {
           <h2 className="font-['Barlow',sans-serif] font-bold text-2xl text-white mb-2">Visit Us from Nokomis</h2>
           <p className="text-[#8C95A6] mb-6">About 20 minutes south on US-41. Open daily 7 AM – 7 PM · Touchless: 24/7.</p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <a href={BUSINESS.mapUrl} target="_blank" rel="noopener noreferrer" className="px-8 py-3 rounded-xl bg-[#00C2FF] text-black font-bold hover:bg-[#00AADE] transition-colors">Get Directions</a>
-            <a href={BUSINESS.phone.href} className="px-8 py-3 rounded-xl bg-white/5 border border-white/15 text-white hover:bg-white/10 transition-colors">{BUSINESS.phone.display}</a>
+            <a href={BUSINESS.phone.href} className="inline-flex items-center gap-2 px-8 py-3 rounded-xl bg-[#00C2FF] text-black font-bold hover:bg-[#00AADE] transition-colors shadow-[0_0_20px_rgba(0,194,255,0.3)]">Call Now — {BUSINESS.phone.display}</a>
+            <a href={BUSINESS.whatsapp.hrefBooking} target="_blank" rel="noopener noreferrer" className="px-8 py-3 rounded-xl bg-[#25D366] text-white font-bold hover:bg-[#20BA5A] transition-colors shadow-[0_0_20px_rgba(37,211,102,0.25)]">Book on WhatsApp</a>
+          </div>
+          <div className="mt-4">
+            <a href={BUSINESS.mapUrl} target="_blank" rel="noopener noreferrer" className="text-sm text-[#8C95A6] hover:text-[#00C2FF] transition-colors underline underline-offset-2">Get Directions →</a>
           </div>
         </div>
       </div>
