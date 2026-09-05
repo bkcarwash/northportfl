@@ -3,10 +3,15 @@ import { BUSINESS } from "@/lib/business-config";
 import ServiceDetailPage from "@/components/sections/ServiceDetailPage";
 
 export const metadata: Metadata = {
-  title: "Paint Correction in North Port, FL | Swirl & Scratch Removal",
+  title: "Paint Correction Near Me — North Port FL | Swirl & Scratch Removal",
   description:
-    "Professional paint correction and swirl mark removal at North Port Car Wash. Machine polishing restores glossy, clear-coat clarity on faded and swirled paint. North Port, FL.",
+    "Professional paint correction near North Port, FL. Machine polishing removes swirl marks, scratches & oxidation at 14164 S Tamiami Trail. Serving Port Charlotte, Venice & Sarasota. Call (941) 564-6447.",
   alternates: { canonical: `${BUSINESS.siteUrl}/services/detailing/paint-correction` },
+  openGraph: {
+    title: "Paint Correction Near North Port FL | Swirl Mark Removal",
+    description:
+      "Remove swirl marks, scratches & oxidation with machine polishing. Professional paint correction in North Port, FL. Call (941) 564-6447.",
+  },
 };
 
 export default function PaintCorrectionPage() {
@@ -35,6 +40,24 @@ export default function PaintCorrectionPage() {
       duration="4–8 hours (depending on severity and panel count)"
       ctaType="appointment"
       faqTitle="Paint Correction — Common Questions"
+      extraContent={
+        <div className="p-5 rounded-xl bg-white/[0.02] border border-white/5 mb-8">
+          <h2 className="font-['Barlow',sans-serif] font-bold text-base text-white mb-2">Paint Correction Near North Port, FL</h2>
+          <p className="text-sm text-[#8C95A6] leading-relaxed mb-3">
+            <strong className="text-white">North Port Car Wash</strong> provides professional paint correction at <strong className="text-white">14164 S Tamiami Trail (US-41), North Port, FL 34287</strong>. To schedule a paint correction appointment, call <a href={BUSINESS.phone.href} className="text-[#00C2FF] hover:underline">{BUSINESS.phone.display}</a>. We serve customers from North Port, Port Charlotte, Venice, Osprey, Englewood, Punta Gorda, and Sarasota County.
+          </p>
+          <p className="text-sm text-[#8C95A6] leading-relaxed mb-3">
+            <strong className="text-white">Common paint correction requests we handle:</strong>
+          </p>
+          <ul className="space-y-1.5 text-sm text-[#8C95A6]">
+            <li className="flex items-start gap-2"><span className="text-[#00C2FF] mt-0.5">→</span> Swirl marks from automatic car washes (especially on dark-colored vehicles)</li>
+            <li className="flex items-start gap-2"><span className="text-[#00C2FF] mt-0.5">→</span> Light scratches from improper washing or parking lot contact</li>
+            <li className="flex items-start gap-2"><span className="text-[#00C2FF] mt-0.5">→</span> Oxidation and fading from Florida UV exposure</li>
+            <li className="flex items-start gap-2"><span className="text-[#00C2FF] mt-0.5">→</span> Water spots from hard water or sprinkler systems</li>
+            <li className="flex items-start gap-2"><span className="text-[#00C2FF] mt-0.5">→</span> Pre-ceramic-coating paint preparation</li>
+          </ul>
+        </div>
+      }
       faqs={[
         {
           question: "Is paint correction permanent?",

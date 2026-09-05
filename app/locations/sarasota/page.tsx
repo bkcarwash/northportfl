@@ -6,10 +6,15 @@ import BreadcrumbSchema from "@/components/schema/BreadcrumbSchema";
 import FaqSection from "@/components/sections/FaqSection";
 
 export const metadata: Metadata = {
-  title: "Car Wash Near Sarasota, FL | North Port Car Wash",
+  title: "Car Detailing & Ceramic Coating Near Sarasota FL | North Port Car Wash",
   description:
-    "North Port Car Wash serves Sarasota, FL drivers — about 35 minutes south on US-41. Tunnel wash, free vacuums, and professional detailing for Sarasota County vehicles.",
+    "Professional ceramic coating, paint correction & detailing for Sarasota, FL vehicles. North Port Car Wash is 35 min south on US-41 at 14164 S Tamiami Trail. Open daily 7 AM–7 PM. (941) 564-6447.",
   alternates: { canonical: `${BUSINESS.siteUrl}/locations/sarasota` },
+  openGraph: {
+    title: "Ceramic Coating & Detailing Near Sarasota FL | North Port Car Wash",
+    description:
+      "Ceramic coating, paint correction & full detailing for Sarasota vehicles. 35 min south on US-41. Open daily 7 AM–7 PM.",
+  },
 };
 
 const FAQS = [
@@ -48,16 +53,21 @@ export default function SarasotaPage() {
           <span className="text-white">Car Wash Near Sarasota, FL</span>
         </nav>
 
+        {/* AIO/GEO entity block */}
+        <div className="mb-4 p-5 rounded-xl bg-[#00C2FF]/5 border border-[#00C2FF]/10 text-sm text-[#8C95A6] leading-relaxed">
+          <strong className="text-white">Quick answer:</strong> North Port Car Wash at <strong className="text-white">14164 S Tamiami Trail, North Port, FL 34287</strong> provides professional car detailing, ceramic coating, and paint correction for Sarasota, FL vehicles — approximately <strong className="text-white">35 minutes south on US-41</strong>. Sarasota County drivers commuting south on the Tamiami Trail or I-75 pass through the North Port area regularly. Services: touchless wash (24/7), tunnel wash, free vacuum bays, unlimited membership, and full detailing by appointment. Hours: <strong className="text-white">Mon–Sun 7 AM – 7 PM</strong>. Phone: <a href={BUSINESS.phone.href} className="text-[#00C2FF] hover:underline">{BUSINESS.phone.display}</a>.
+        </div>
+
         <div className="mb-12">
           <div className="flex items-center gap-3 mb-3">
             <div className="w-8 h-0.5 bg-[#00C2FF]" />
             <span className="text-xs text-[#00C2FF] uppercase tracking-widest font-semibold">Serving Sarasota, FL</span>
           </div>
           <h1 className="font-['Barlow',sans-serif] font-black text-4xl sm:text-5xl text-white mb-4">
-            Car Wash Near Sarasota, FL
+            Car Detailing & Ceramic Coating Near Sarasota, FL
           </h1>
           <p className="text-lg text-[#8C95A6] leading-relaxed max-w-2xl">
-            North Port Car Wash is approximately 35 minutes south of Sarasota on US-41 (Tamiami Trail). Sarasota-area drivers heading south toward North Port, Port Charlotte, or Punta Gorda pass through our area regularly — and our location at 14164 S Tamiami Trail offers a tunnel wash, free vacuums, and full-service professional detailing for Sarasota County vehicles.
+            North Port Car Wash is approximately 35 minutes south of Sarasota on US-41 (Tamiami Trail). Sarasota-area drivers — including those near Siesta Key, Lakewood Ranch, St. Armands Circle, Southgate, and the Sarasota Memorial corridor — traveling south toward North Port or Port Charlotte pass directly through our area. We offer professional detailing, ceramic coating, paint correction, tunnel wash, and free vacuum bays at 14164 S Tamiami Trail in North Port, FL.
           </p>
         </div>
 
@@ -128,10 +138,19 @@ export default function SarasotaPage() {
         <FaqSection faqs={FAQS} withSchema title="Sarasota Car Wash — Common Questions" />
 
         <div className="mt-8 glass-card p-8 text-center">
-          <h2 className="font-['Barlow',sans-serif] font-bold text-2xl text-white mb-2">Visit Us from Sarasota</h2>
-          <p className="text-[#8C95A6] mb-6">About 35 minutes south on US-41. Open daily 7 AM – 7 PM.</p>
+          <h2 className="font-['Barlow',sans-serif] font-bold text-2xl text-white mb-2">Book Your Sarasota Vehicle</h2>
+          <p className="text-[#8C95A6] mb-6">About 35 minutes south on US-41. Open daily 7 AM – 7 PM. Detailing by appointment.</p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a href={BUSINESS.mapUrl} target="_blank" rel="noopener noreferrer" className="px-8 py-3 rounded-xl bg-[#00C2FF] text-black font-bold hover:bg-[#00AADE] transition-colors">Get Directions</a>
+            <a
+              href={BUSINESS.whatsapp.hrefDetailing}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-8 py-3 rounded-xl font-bold text-white transition-colors"
+              style={{ backgroundColor: "#25D366" }}
+            >
+              Book on WhatsApp
+            </a>
             <a href={BUSINESS.phone.href} className="px-8 py-3 rounded-xl bg-white/5 border border-white/15 text-white hover:bg-white/10 transition-colors">{BUSINESS.phone.display}</a>
           </div>
         </div>

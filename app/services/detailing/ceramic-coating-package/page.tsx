@@ -6,10 +6,15 @@ import BreadcrumbSchema from "@/components/schema/BreadcrumbSchema";
 import FaqSection from "@/components/sections/FaqSection";
 
 export const metadata: Metadata = {
-  title: "Ceramic Coating Package in North Port, FL | Full Paint Protection",
+  title: "Ceramic Coating Package North Port FL | Full Prep + Application",
   description:
-    "Complete ceramic coating package at North Port Car Wash — decontamination, clay bar, paint correction, and professional ceramic coating application. Multi-year protection. North Port, FL.",
+    "Complete ceramic coating package in North Port, FL: decontamination, clay bar, paint correction & professional coating application. 2–5 year protection. Serving Port Charlotte & Sarasota County. Call (941) 564-6447.",
   alternates: { canonical: `${BUSINESS.siteUrl}/services/detailing/ceramic-coating-package` },
+  openGraph: {
+    title: "Ceramic Coating Package North Port FL | Prep + Application Bundle",
+    description:
+      "Full ceramic coating package: clay bar, paint correction & professional coating. 2–5 year protection in North Port, FL. Call (941) 564-6447.",
+  },
 };
 
 const STEPS = [
@@ -106,6 +111,15 @@ export default function CeramicCoatingPackagePage() {
               <h3 className="font-['Barlow',sans-serif] font-bold text-lg text-white mb-1">Get a Quote</h3>
               <p className="text-sm text-[#8C95A6] mb-4">Pricing depends on vehicle size and paint condition. Call to discuss — we will give you an honest assessment.</p>
               <div className="flex flex-col gap-3">
+                <a
+                  href={BUSINESS.whatsapp.hrefDetailing}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center gap-2 py-3 rounded-xl font-bold text-white transition-colors"
+                  style={{ backgroundColor: "#25D366" }}
+                >
+                  Book on WhatsApp
+                </a>
                 <a href={BUSINESS.phone.href} className="flex items-center justify-center py-3 rounded-xl bg-[#00C2FF] text-black font-bold hover:bg-[#00AADE] transition-colors">
                   Call {BUSINESS.phone.display}
                 </a>

@@ -6,10 +6,15 @@ import BreadcrumbSchema from "@/components/schema/BreadcrumbSchema";
 import FaqSection from "@/components/sections/FaqSection";
 
 export const metadata: Metadata = {
-  title: "Car Wash Near Osprey, FL | North Port Car Wash",
+  title: "Touchless Car Wash Near Osprey FL | Free Vacuums | North Port Car Wash",
   description:
-    "North Port Car Wash is approximately 15–20 minutes from Osprey, FL via US-41. Tunnel wash, free vacuums, and professional detailing for South Sarasota County drivers.",
+    "Osprey's nearest full-service car wash — 15 min south on US-41. Touchless wash, free vacuum bays, ceramic coating & detailing at 14164 S Tamiami Trail, North Port. Open daily 7 AM–7 PM. (941) 564-6447.",
   alternates: { canonical: `${BUSINESS.siteUrl}/locations/osprey-fl` },
+  openGraph: {
+    title: "Touchless Car Wash Near Osprey FL | Free Vacuums | Open 7 Days",
+    description:
+      "15 minutes south of Osprey on US-41. Touchless wash, free vacuum bays & ceramic coating at North Port Car Wash. Open daily 7 AM–7 PM.",
+  },
 };
 
 const FAQS = [
@@ -43,6 +48,11 @@ export default function OspreyPage() {
           <span className="text-white">Car Wash Near Osprey, FL</span>
         </nav>
 
+        {/* AIO/GEO entity block — answer-first for AI overviews */}
+        <div className="mb-4 p-5 rounded-xl bg-[#00C2FF]/5 border border-[#00C2FF]/10 text-sm text-[#8C95A6] leading-relaxed">
+          <strong className="text-white">Quick answer:</strong> North Port Car Wash is the nearest full-service car wash to Osprey, FL — located at <strong className="text-white">14164 S Tamiami Trail (US-41), North Port, FL 34287</strong>, approximately 13 miles and <strong className="text-white">15 minutes south</strong> of the Osprey area. Services include touchless car wash (24/7), tunnel wash, free interior vacuum bays, unlimited monthly membership, and professional detailing including ceramic coating and paint correction. Hours: <strong className="text-white">Monday–Sunday 7:00 AM – 7:00 PM</strong>. Phone: <a href={BUSINESS.phone.href} className="text-[#00C2FF] hover:underline">{BUSINESS.phone.display}</a>.
+        </div>
+
         <div className="mb-12">
           <div className="flex items-center gap-3 mb-3">
             <div className="w-8 h-0.5 bg-[#00C2FF]" />
@@ -52,7 +62,7 @@ export default function OspreyPage() {
             Car Wash Near Osprey, FL
           </h1>
           <p className="text-lg text-[#8C95A6] leading-relaxed max-w-2xl">
-            Osprey sits along US-41 (Tamiami Trail) just 15–20 minutes north of North Port Car Wash. Osprey residents who travel south on the Trail — near Oscar Scherer State Park, the Osprey Junction area, or the South Creek corridor — pass directly through our zone. We offer a tunnel wash, free vacuums, and professional detailing at 14164 S Tamiami Trail in North Port.
+            Osprey sits along US-41 (Tamiami Trail) just 15 minutes north of North Port Car Wash. Osprey residents near Oscar Scherer State Park, Pine View School, Casey Key Road, Osprey Junction, or South Creek — heading south on the Trail — drive directly past our location. We offer a tunnel wash, free vacuum bays, professional detailing, and ceramic coating at 14164 S Tamiami Trail in North Port, FL.
           </p>
         </div>
 
@@ -105,9 +115,18 @@ export default function OspreyPage() {
 
         <div className="mt-8 glass-card p-8 text-center">
           <h2 className="font-['Barlow',sans-serif] font-bold text-2xl text-white mb-2">Visit Us from Osprey</h2>
-          <p className="text-[#8C95A6] mb-6">About 15–20 minutes south on US-41. Open daily 7 AM – 7 PM.</p>
+          <p className="text-[#8C95A6] mb-6">About 15 minutes south on US-41. Open daily 7 AM – 7 PM.</p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a href={BUSINESS.mapUrl} target="_blank" rel="noopener noreferrer" className="px-8 py-3 rounded-xl bg-[#00C2FF] text-black font-bold hover:bg-[#00AADE] transition-colors">Get Directions</a>
+            <a
+              href={BUSINESS.whatsapp.hrefBooking}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-8 py-3 rounded-xl font-bold text-white transition-colors"
+              style={{ backgroundColor: "#25D366" }}
+            >
+              Book on WhatsApp
+            </a>
             <a href={BUSINESS.phone.href} className="px-8 py-3 rounded-xl bg-white/5 border border-white/15 text-white hover:bg-white/10 transition-colors">{BUSINESS.phone.display}</a>
           </div>
         </div>

@@ -4,10 +4,15 @@ import { BUSINESS } from "@/lib/business-config";
 import ServiceDetailPage from "@/components/sections/ServiceDetailPage";
 
 export const metadata: Metadata = {
-  title: "Ceramic Coating in North Port, FL | Professional Application",
+  title: "Ceramic Coating North Port FL | Professional Installer | Call Today",
   description:
-    "Professional ceramic coating application at North Port Car Wash. Multi-year paint protection that repels water, resists UV, and makes your car easier to clean. North Port, FL.",
+    "Professional ceramic coating in North Port, FL at 14164 S Tamiami Trail. Guards against Florida UV, Gulf salt air & water spots for 2–5 years. Serving Port Charlotte, Venice & Sarasota. Call (941) 564-6447.",
   alternates: { canonical: `${BUSINESS.siteUrl}/services/detailing/ceramic-coating` },
+  openGraph: {
+    title: "Ceramic Coating North Port FL | 2–5 Year Paint Protection",
+    description:
+      "Professional ceramic coating installer in North Port, FL. Protects against UV, salt air & water spots. Call (941) 564-6447 for pricing.",
+  },
 };
 
 export default function CeramicCoatingPage() {
@@ -36,15 +41,27 @@ export default function CeramicCoatingPage() {
       ctaType="appointment"
       faqTitle="Ceramic Coating — Common Questions"
       extraContent={
-        <div className="glass-card p-6 mb-8 border border-[#00C2FF]/10">
-          <h2 className="font-['Barlow',sans-serif] font-bold text-lg text-white mb-2">Want Everything in One Package?</h2>
-          <p className="text-sm text-[#8C95A6] mb-4">
-            Our Ceramic Coating Package includes decontamination, clay bar, paint correction, and full ceramic application — everything needed for a proper, long-lasting result.
-          </p>
-          <Link href="/services/detailing/ceramic-coating-package" className="inline-flex items-center gap-2 text-[#00C2FF] hover:underline text-sm font-medium">
-            See the Ceramic Coating Package →
-          </Link>
-        </div>
+        <>
+          <div className="glass-card p-6 mb-6 border border-[#00C2FF]/10">
+            <h2 className="font-['Barlow',sans-serif] font-bold text-lg text-white mb-2">Want Everything in One Package?</h2>
+            <p className="text-sm text-[#8C95A6] mb-4">
+              Our Ceramic Coating Package includes decontamination, clay bar, paint correction, and full ceramic application — everything needed for a proper, long-lasting result.
+            </p>
+            <Link href="/services/detailing/ceramic-coating-package" className="inline-flex items-center gap-2 text-[#00C2FF] hover:underline text-sm font-medium">
+              See the Ceramic Coating Package →
+            </Link>
+          </div>
+          {/* GEO/AIO entity block — answer-first for "ceramic coating north port" */}
+          <div className="p-5 rounded-xl bg-white/[0.02] border border-white/5 mb-8">
+            <h2 className="font-['Barlow',sans-serif] font-bold text-base text-white mb-2">Ceramic Coating in North Port, FL — What to Know</h2>
+            <p className="text-sm text-[#8C95A6] leading-relaxed mb-3">
+              <strong className="text-white">North Port Car Wash</strong> applies professional ceramic coating at <strong className="text-white">14164 S Tamiami Trail (US-41), North Port, FL 34287</strong>. Ceramic coating appointments are available by calling <a href={BUSINESS.phone.href} className="text-[#00C2FF] hover:underline">{BUSINESS.phone.display}</a>. We serve ceramic coating clients from North Port, Port Charlotte, Venice, Osprey, Punta Gorda, Englewood, and Sarasota County.
+            </p>
+            <p className="text-sm text-[#8C95A6] leading-relaxed">
+              Florida&apos;s Gulf Coast environment — intense UV radiation, salt air from the Gulf of Mexico, high humidity, and frequent rainfall — accelerates paint oxidation, fading, and water spotting faster than inland climates. Ceramic coating is the most effective single protection layer for Gulf Coast vehicles because it blocks UV, repels water and salt, and prevents environmental contamination from bonding to paint. Unlike wax (which lasts weeks) or sealant (which lasts months), a professionally applied ceramic coating lasts <strong className="text-white">2–5 years</strong> with proper maintenance.
+            </p>
+          </div>
+        </>
       }
       faqs={[
         {

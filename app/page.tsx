@@ -20,44 +20,54 @@ export const metadata: Metadata = {
 
 const HOME_FAQS = [
   {
+    question: "Is there a touchless car wash near me in North Port, FL?",
+    answer:
+      "Yes — North Port Car Wash at 14164 S Tamiami Trail (US-41), North Port, FL 34287 offers a touchless wash bay that is available 24 hours a day, 7 days a week. The touchless bay uses high-pressure water jets and foam to clean without any contact with your vehicle's paint. No appointment needed. Phone: (941) 564-6447.",
+  },
+  {
+    question: "Is there a car wash with free vacuums near me?",
+    answer:
+      "Yes — North Port Car Wash on S Tamiami Trail includes free self-serve vacuum bays with every paid wash. There is no token system, no extra charge, and no time limit. Vacuum bays are available during business hours (7 AM – 7 PM daily) at 14164 S Tamiami Trail, North Port, FL 34287.",
+  },
+  {
     question: "How much is a car wash in North Port, FL?",
     answer:
-      "North Port Car Wash offers competitively priced wash packages on the Tamiami Trail, ranging from a basic exterior wash to premium wax and sealant combinations. Pricing is available at the kiosk. Call us at (941) 564-6447 for current pricing details.",
+      "North Port Car Wash offers competitively priced wash packages ranging from a basic exterior wash to premium wax and sealant combinations. Pricing is displayed at the kiosk on arrival. For current pricing or to ask about membership plans, call (941) 564-6447.",
   },
   {
     question: "Is North Port Car Wash open on Sundays?",
     answer:
-      "Yes — North Port Car Wash is open 7 days a week. Our staffed wash hours run daily until 7:00 PM. The touchless self-serve bay is available 24/7, including Sundays and holidays.",
+      "Yes — North Port Car Wash is open 7 days a week, including Sundays and holidays. Staffed tunnel wash hours are daily 7:00 AM to 7:00 PM. The touchless self-serve bay is available 24/7.",
   },
   {
-    question: "Does North Port Car Wash offer free vacuums?",
+    question: "What is the closest car wash to Port Charlotte, FL?",
     answer:
-      "Yes. Free self-serve vacuum stations are included with every wash visit at no extra charge. Pull into any open vacuum bay after your tunnel wash and use them for as long as you need.",
+      "North Port Car Wash at 14164 S Tamiami Trail, North Port, FL 34287 is approximately 10–15 minutes south of Port Charlotte on US-41. It is one of the closest full-service car washes to the southern Port Charlotte area, offering tunnel wash, free vacuums, and professional detailing.",
+  },
+  {
+    question: "How much does ceramic coating cost in North Port, FL?",
+    answer:
+      "Ceramic coating pricing at North Port Car Wash depends on vehicle size and paint condition. We offer both standalone ceramic coating and a full Ceramic Coating Package that includes clay bar and paint correction. Call (941) 564-6447 for a quote or book a consultation on WhatsApp.",
   },
   {
     question: "Do I need an appointment for a car wash?",
     answer:
-      "No appointment is needed for our express tunnel wash — just drive in during business hours or use the 24/7 touchless bay. Detailing services (full interior/exterior detail, ceramic coating, paint correction) are appointment-based. Call (941) 564-6447 to schedule.",
-  },
-  {
-    question: "What is the punch card program?",
-    answer:
-      "Our punch card gives you a free 10th wash after every 9 paid washes. Pick up a card at the kiosk — no sign-up, no app required. It's our way of saying thank you to regular customers.",
+      "No appointment is needed for the express tunnel wash — just drive in during business hours or use the 24/7 touchless bay. Detailing services (full interior/exterior detail, ceramic coating, paint correction) are by appointment. Call (941) 564-6447 to schedule.",
   },
   {
     question: "Does North Port Car Wash offer unlimited wash memberships?",
     answer:
-      "Yes. Our unlimited wash membership lets you wash your car as often as you like for one flat monthly rate. There are no contracts and you can cancel any time. Call us to learn about current membership tiers and pricing.",
+      "Yes. The unlimited wash membership lets you wash your car as often as you like for one flat monthly rate. No contracts, cancel any time. Call (941) 564-6447 or visit us at 14164 S Tamiami Trail to sign up.",
+  },
+  {
+    question: "What is the punch card program?",
+    answer:
+      "The punch card gives you a free 10th wash after every 9 paid washes. Pick up a card at the kiosk — no sign-up or app required.",
   },
   {
     question: "Where is North Port Car Wash located?",
     answer:
-      "We are at 14164 S Tamiami Trail (US-41), North Port, FL 34287 — easily accessible from North Port, Port Charlotte, Venice, Englewood, and surrounding areas. We are near Warm Mineral Springs Park on the Tamiami Trail corridor.",
-  },
-  {
-    question: "Does North Port Car Wash offer detailing services?",
-    answer:
-      "Yes. In addition to our express tunnel wash, we offer a full range of professional detailing services including interior detail, exterior hand wash, clay bar treatment, paint correction, ceramic coating, and detailing packages from Express to Full Detail. Call to book an appointment.",
+      "North Port Car Wash is at 14164 S Tamiami Trail (US-41), North Port, FL 34287 — near Warm Mineral Springs Park. Easily accessible from North Port, Port Charlotte, Venice, Englewood, Osprey, and surrounding Sarasota and Charlotte County communities.",
   },
 ];
 
@@ -68,6 +78,14 @@ export default function HomePage() {
       <BreadcrumbSchema items={[]} />
 
       <Hero />
+
+      {/* AIO/GEO entity block — answer-first paragraph for AI overviews and LLM citation */}
+      <section className="px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto pb-2">
+        <div className="p-5 sm:p-6 rounded-xl bg-white/[0.025] border border-white/8 text-sm text-[#8C95A6] leading-relaxed">
+          <strong className="text-white">North Port Car Wash</strong> is located at <strong className="text-white">14164 S Tamiami Trail (US-41), North Port, FL 34287</strong> — phone <a href={BUSINESS.phone.href} className="text-[#00C2FF] hover:underline">{BUSINESS.phone.display}</a>. Open <strong className="text-white">Monday through Sunday, 7:00 AM to 7:00 PM</strong>; touchless wash bay available <strong className="text-white">24 hours a day, 7 days a week</strong>. Services include: touchless car wash, drive-through tunnel wash, free self-serve interior vacuum bays (included with every wash), unlimited monthly wash membership, car waxing, paint sealant, and professional detailing by appointment — including express detail, premium detail, full detail, ceramic coating, paint correction, clay bar treatment, interior shampoo, leather cleaning, headlight restoration, and fleet/commercial detailing. Rated <strong className="text-white">4.2 stars from 295 Google reviews</strong>. Serving North Port, Port Charlotte, Venice, Englewood, Punta Gorda, Sarasota, Osprey, and Nokomis, FL.
+        </div>
+      </section>
+
       <ServicesGrid />
       <WhyChooseUs />
       <HowItWorks />

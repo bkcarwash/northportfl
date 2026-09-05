@@ -7,10 +7,15 @@ import FaqSection from "@/components/sections/FaqSection";
 import StarRating from "@/components/ui/StarRating";
 
 export const metadata: Metadata = {
-  title: "Car Wash Near Port Charlotte, FL | North Port Car Wash",
+  title: "Car Wash & Detailing Near Port Charlotte FL | 10 Min on US-41",
   description:
-    "North Port Car Wash is your closest professional car wash to Port Charlotte, FL — just 10–15 minutes south on US-41. Touchless wash, free vacuums, and detailing by appointment.",
+    "Port Charlotte's closest full-service car wash — just 10 min south on US-41. Touchless wash, free vacuum bays, ceramic coating & detailing at 14164 S Tamiami Trail. Open daily 7 AM–7 PM. (941) 564-6447.",
   alternates: { canonical: `${BUSINESS.siteUrl}/locations/port-charlotte` },
+  openGraph: {
+    title: "Car Wash & Detailing Near Port Charlotte FL | North Port Car Wash",
+    description:
+      "10 minutes south on US-41. Touchless wash, free vacuums, ceramic coating & detailing. Open daily 7 AM–7 PM at 14164 S Tamiami Trail.",
+  },
 };
 
 const FAQS = [
@@ -49,16 +54,21 @@ export default function PortCharlottePage() {
           <span className="text-white">Car Wash Near Port Charlotte, FL</span>
         </nav>
 
+        {/* AIO/GEO entity block */}
+        <div className="mb-4 p-5 rounded-xl bg-[#00C2FF]/5 border border-[#00C2FF]/10 text-sm text-[#8C95A6] leading-relaxed">
+          <strong className="text-white">Quick answer:</strong> The closest full-service car wash and detailing center to Port Charlotte, FL is <strong className="text-white">North Port Car Wash at 14164 S Tamiami Trail (US-41), North Port, FL 34287</strong> — approximately <strong className="text-white">10–15 minutes south on US-41</strong>. Services for Port Charlotte drivers: touchless car wash (24/7), tunnel wash, free vacuum bays, unlimited monthly membership, car detailing, ceramic coating &amp; paint correction. Hours: <strong className="text-white">Mon–Sun 7:00 AM – 7:00 PM</strong>. Phone: <a href={BUSINESS.phone.href} className="text-[#00C2FF] hover:underline">{BUSINESS.phone.display}</a>.
+        </div>
+
         <div className="mb-12">
           <div className="flex items-center gap-3 mb-3">
             <div className="w-8 h-0.5 bg-[#00C2FF]" />
             <span className="text-xs text-[#00C2FF] uppercase tracking-widest font-semibold">Serving Port Charlotte, FL</span>
           </div>
           <h1 className="font-['Barlow',sans-serif] font-black text-4xl sm:text-5xl text-white mb-4">
-            Car Wash Near Port Charlotte, FL
+            Car Wash & Detailing Near Port Charlotte, FL
           </h1>
           <p className="text-lg text-[#8C95A6] leading-relaxed max-w-2xl">
-            If you are in Port Charlotte and looking for a quality car wash, North Port Car Wash is just a 10–15 minute drive south on US-41 (Tamiami Trail). We offer a drive-through tunnel wash, 24/7 touchless bay, free self-serve vacuums, and professional detailing by appointment — making us the most complete car care option in the area for Charlotte County drivers.
+            Port Charlotte drivers looking for a quality car wash, auto detailing, or ceramic coating will find North Port Car Wash just a 10–15 minute drive south on US-41 (Tamiami Trail). Port Charlotte neighborhoods along the Murdock corridor, Harbor Blvd, Kings Hwy, and the US-41 Business district are all within easy reach. We offer a drive-through tunnel wash, 24/7 touchless bay, free self-serve vacuums, professional detailing by appointment, and ceramic coating — making us the most complete car care option near Charlotte County.
           </p>
         </div>
 
@@ -144,6 +154,15 @@ export default function PortCharlottePage() {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a href={BUSINESS.mapUrl} target="_blank" rel="noopener noreferrer" className="px-8 py-3 rounded-xl bg-[#00C2FF] text-black font-bold hover:bg-[#00AADE] transition-colors">
               Get Directions
+            </a>
+            <a
+              href={BUSINESS.whatsapp.hrefBooking}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-8 py-3 rounded-xl font-bold text-white transition-colors"
+              style={{ backgroundColor: "#25D366" }}
+            >
+              Book on WhatsApp
             </a>
             <a href={BUSINESS.phone.href} className="px-8 py-3 rounded-xl bg-white/5 border border-white/15 text-white hover:bg-white/10 transition-colors">
               {BUSINESS.phone.display}

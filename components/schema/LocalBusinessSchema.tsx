@@ -118,9 +118,12 @@ export default function LocalBusinessSchema({ areaServed, additionalType }: Prop
       "@type": "City",
       name: area,
     })),
+    slogan: "Touchless Wash · Free Vacuums · Professional Detailing · North Port, FL",
+    foundingDate: "2019",
     knowsAbout: [
       "car wash",
       "touchless car wash",
+      "brushless car wash",
       "car detailing",
       "ceramic coating",
       "paint correction",
@@ -128,9 +131,42 @@ export default function LocalBusinessSchema({ areaServed, additionalType }: Prop
       "interior detailing",
       "exterior detailing",
       "car waxing",
+      "carnauba wax",
       "fleet detailing",
       "unlimited car wash membership",
+      "clay bar treatment",
+      "paint protection film",
+      "odor removal",
+      "headlight restoration",
+      "free car vacuum",
+      "self-serve vacuum",
     ],
+    potentialAction: [
+      {
+        "@type": "ReserveAction",
+        target: {
+          "@type": "EntryPoint",
+          urlTemplate: BUSINESS.whatsapp.hrefBooking,
+          inLanguage: "en-US",
+          actionPlatform: [
+            "https://schema.org/MobileWebPlatform",
+            "https://schema.org/DesktopWebPlatform",
+          ],
+        },
+        result: {
+          "@type": "Reservation",
+          name: "Car Wash or Detailing Appointment",
+        },
+      },
+      {
+        "@type": "OrderAction",
+        target: {
+          "@type": "EntryPoint",
+          urlTemplate: BUSINESS.phone.href,
+        },
+      },
+    ],
+    keywords: "car wash North Port FL, touchless car wash, free vacuums, ceramic coating North Port, paint correction North Port FL, car detailing North Port, unlimited wash membership, car wash near me, brushless car wash near me",
     hasOfferCatalog: {
       "@type": "OfferCatalog",
       name: "Car Wash & Detailing Services",
