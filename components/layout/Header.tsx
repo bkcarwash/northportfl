@@ -11,7 +11,7 @@ const NAV_ITEMS = [
   { label: "Memberships", href: "/services/wash/unlimited-wash-plans" },
   { label: "Locations", href: "/#service-area" },
   { label: "About", href: "/about" },
-  { label: "Contact", href: "/contact" },
+  { label: "Book", href: "/book", highlight: true },
 ];
 
 export default function Header() {
@@ -40,7 +40,11 @@ export default function Header() {
               <Link
                 key={item.href}
                 href={item.href}
-                className="text-sm text-[#8C95A6] hover:text-white transition-colors duration-200"
+                className={
+                  item.highlight
+                    ? "text-sm font-semibold text-[#00C2FF] hover:text-white transition-colors duration-200"
+                    : "text-sm text-[#8C95A6] hover:text-white transition-colors duration-200"
+                }
               >
                 {item.label}
               </Link>
@@ -113,7 +117,11 @@ export default function Header() {
                 key={item.href}
                 href={item.href}
                 onClick={() => setMenuOpen(false)}
-                className="px-3 py-3 text-[#8C95A6] hover:text-white hover:bg-white/5 rounded-lg transition-colors"
+                className={
+                  item.highlight
+                    ? "px-3 py-3 text-[#00C2FF] font-semibold hover:bg-[#00C2FF]/5 rounded-lg transition-colors"
+                    : "px-3 py-3 text-[#8C95A6] hover:text-white hover:bg-white/5 rounded-lg transition-colors"
+                }
               >
                 {item.label}
               </Link>
