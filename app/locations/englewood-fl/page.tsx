@@ -99,7 +99,7 @@ export default function EnglewoodPage() {
           <p className="text-[#8C95A6] mb-6">About 20 minutes away. Open daily 7 AM – 7 PM · Touchless bay: 24/7.</p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a href={BUSINESS.phone.href} className="inline-flex items-center gap-2 px-8 py-3 rounded-xl bg-[#00C2FF] text-black font-bold hover:bg-[#00AADE] transition-colors shadow-[0_0_20px_rgba(0,194,255,0.3)]">Call Now — {BUSINESS.phone.display}</a>
-            <a href={BUSINESS.whatsapp.hrefBooking} target="_blank" rel="noopener noreferrer" className="px-8 py-3 rounded-xl bg-[#25D366] text-white font-bold hover:bg-[#20BA5A] transition-colors shadow-[0_0_20px_rgba(37,211,102,0.25)]">Book on WhatsApp</a>
+            <a href="/book" className="px-8 py-3 rounded-xl bg-white/8 border border-white/20 text-white font-bold hover:bg-white/15 transition-colors">Book Appointment</a>
           </div>
           <div className="mt-4">
             <a href={BUSINESS.mapUrl} target="_blank" rel="noopener noreferrer" className="text-sm text-[#8C95A6] hover:text-[#00C2FF] transition-colors underline underline-offset-2">Get Directions →</a>

@@ -146,7 +146,7 @@ export default function LocalBusinessSchema({ areaServed, additionalType }: Prop
         "@type": "ReserveAction",
         target: {
           "@type": "EntryPoint",
-          urlTemplate: BUSINESS.whatsapp.hrefBooking,
+          urlTemplate: `${BUSINESS.siteUrl}/book`,
           inLanguage: "en-US",
           actionPlatform: [
             "https://schema.org/MobileWebPlatform",

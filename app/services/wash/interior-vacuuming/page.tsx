@@ -120,20 +120,14 @@ export default function InteriorVacuumingPage() {
               <h3 className="font-['Barlow',sans-serif] font-bold text-lg text-white mb-1">Visit Us</h3>
               <p className="text-sm text-[#8C95A6] mb-4">No appointment needed. Get your wash and vacuum every day.</p>
               <div className="flex flex-col gap-3">
-                <a href={BUSINESS.mapUrl} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 py-3 rounded-xl bg-[#00C2FF] text-black font-bold hover:bg-[#00AADE] transition-colors">
-                  Get Directions
+                <a href={BUSINESS.phone.href} className="flex items-center justify-center gap-2 py-3 rounded-xl bg-[#00C2FF] text-black font-bold hover:bg-[#00AADE] transition-colors shadow-[0_0_15px_rgba(0,194,255,0.25)]">
+                  Call Now — {BUSINESS.phone.display}
                 </a>
-                <a
-                  href={BUSINESS.whatsapp.hrefWash}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center justify-center gap-2 py-3 rounded-xl font-bold text-white transition-colors"
-                  style={{ backgroundColor: "#25D366" }}
-                >
-                  Ask on WhatsApp
+                <a href="/book" className="flex items-center justify-center gap-2 py-3 rounded-xl bg-white/5 border border-white/20 text-white font-bold hover:bg-white/10 transition-colors">
+                  Book Appointment
                 </a>
-                <a href={BUSINESS.phone.href} className="flex items-center justify-center gap-2 py-3 rounded-xl bg-white/5 border border-white/15 text-white hover:bg-white/10 transition-colors">
-                  {BUSINESS.phone.display}
+                <a href={BUSINESS.mapUrl} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 py-2 text-sm text-[#8C95A6] hover:text-[#00C2FF] transition-colors underline underline-offset-2">
+                  Get Directions →
                 </a>
               </div>
               <div className="mt-4 pt-4 border-t border-white/10 text-xs text-[#8C95A6] space-y-1">

@@ -44,14 +44,11 @@ export default function BookingForm() {
         </div>
         <h2 className="font-['Barlow',sans-serif] font-black text-3xl text-white mb-3">Booking Received!</h2>
         <p className="text-[#8C95A6] mb-2 max-w-sm">
-          We&apos;ll call or WhatsApp you to confirm your appointment. If you need to reach us sooner:
+          We&apos;ll call you to confirm your appointment. If you need to reach us sooner:
         </p>
         <div className="flex flex-col sm:flex-row gap-3 mt-4">
           <a href={BUSINESS.phone.href} className="px-6 py-3 rounded-xl bg-[#00C2FF] text-black font-bold hover:bg-[#00AADE] transition-colors">
-            Call {BUSINESS.phone.display}
-          </a>
-          <a href={BUSINESS.whatsapp.hrefBooking} target="_blank" rel="noopener noreferrer" className="px-6 py-3 rounded-xl font-bold text-white transition-colors" style={{ backgroundColor: "#25D366" }}>
-            WhatsApp Us
+            Call Now — {BUSINESS.phone.display}
           </a>
         </div>
       </div>
@@ -192,9 +189,8 @@ export default function BookingForm() {
       </button>
 
       <p className="text-center text-xs text-[#8C95A6]">
-        We&apos;ll contact you within a few hours to confirm. Or reach us now on{" "}
-        <a href={BUSINESS.whatsapp.hrefBooking} target="_blank" rel="noopener noreferrer" className="text-[#25D366] hover:underline">WhatsApp</a>
-        {" "}or call <a href={BUSINESS.phone.href} className="text-[#00C2FF] hover:underline">{BUSINESS.phone.display}</a>.
+        We&apos;ll contact you within a few hours to confirm. Or call us now:{" "}
+        <a href={BUSINESS.phone.href} className="text-[#00C2FF] hover:underline">{BUSINESS.phone.display}</a>.
       </p>
     </form>
   );
