@@ -31,7 +31,7 @@ const FAQS = [
   {
     question: "Can I wash a lifted truck or large SUV in the touchless bay?",
     answer:
-      "Yes. The touchless bay accommodates most full-size trucks, SUVs, and vans. If you have questions about whether your vehicle will fit, call us at (941) 564-6447 before visiting.",
+      "Yes. The touchless bay accommodates most full-size trucks, SUVs, and vans. If you have questions about whether your vehicle will fit, call us at (941) 800-8198 before visiting.",
   },
   {
     question: "Does the touchless wash remove tough dirt and road grime?",

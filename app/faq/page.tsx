@@ -55,11 +55,11 @@ const FAQS_SERVICES = [
   },
   {
     question: "Does North Port Car Wash do car detailing?",
-    answer: "Yes — we offer a full range of professional detailing services by appointment, including full interior detail, exterior hand wash, clay bar treatment, paint correction, ceramic coating, and package tiers from Express Detail through our Full Detail Package. Call (941) 564-6447 to schedule.",
+    answer: "Yes — we offer a full range of professional detailing services by appointment, including full interior detail, exterior hand wash, clay bar treatment, paint correction, ceramic coating, and package tiers from Express Detail through our Full Detail Package. Call (941) 800-8198 to schedule.",
   },
   {
     question: "Do I need an appointment for the car wash?",
-    answer: "No appointment is needed for the express tunnel wash or touchless bay — drive in anytime. All detailing services (full interior/exterior detail, ceramic coating, paint correction, etc.) require an appointment. Call us at (941) 564-6447.",
+    answer: "No appointment is needed for the express tunnel wash or touchless bay — drive in anytime. All detailing services (full interior/exterior detail, ceramic coating, paint correction, etc.) require an appointment. Call us at (941) 800-8198.",
   },
   {
     question: "Does North Port Car Wash offer ceramic coating?",
@@ -70,7 +70,7 @@ const FAQS_SERVICES = [
 const FAQS_MEMBERSHIP = [
   {
     question: "Does North Port Car Wash have an unlimited membership?",
-    answer: "Yes — our unlimited wash membership lets you wash your car as many times as you like in a month for one flat monthly rate. There are no contracts. Call (941) 564-6447 to sign up or stop by the wash.",
+    answer: "Yes — our unlimited wash membership lets you wash your car as many times as you like in a month for one flat monthly rate. There are no contracts. Call (941) 800-8198 to sign up or stop by the wash.",
   },
   {
     question: "What is the punch card program at North Port Car Wash?",
@@ -82,22 +82,22 @@ const FAQS_MEMBERSHIP = [
   },
   {
     question: "How do I cancel my membership?",
-    answer: "Call us at (941) 564-6447 before your next billing date to cancel. We do not require notice periods or cancellation fees.",
+    answer: "Call us at (941) 800-8198 before your next billing date to cancel. We do not require notice periods or cancellation fees.",
   },
 ];
 
 const FAQS_PRICING = [
   {
     question: "How much does a car wash cost at North Port Car Wash?",
-    answer: "Pricing is available at the kiosk when you pull in. We offer several wash levels and optional add-ons (wax, sealant). For specific pricing on our current packages, call us at (941) 564-6447.",
+    answer: "Pricing is available at the kiosk when you pull in. We offer several wash levels and optional add-ons (wax, sealant). For specific pricing on our current packages, call us at (941) 800-8198.",
   },
   {
     question: "How much does detailing cost?",
-    answer: "Detailing pricing depends on the service, vehicle size, and condition. We offer packages from an Express Detail to a full Ceramic Coating Package. Call (941) 564-6447 for a quote specific to your vehicle.",
+    answer: "Detailing pricing depends on the service, vehicle size, and condition. We offer packages from an Express Detail to a full Ceramic Coating Package. Call (941) 800-8198 for a quote specific to your vehicle.",
   },
   {
     question: "Are gift cards available?",
-    answer: "Yes — gift cards in any dollar amount are available at the wash. They are redeemable for any service including detailing. Call (941) 564-6447 or stop by to purchase.",
+    answer: "Yes — gift cards in any dollar amount are available at the wash. They are redeemable for any service including detailing. Call (941) 800-8198 or stop by to purchase.",
   },
 ];
 

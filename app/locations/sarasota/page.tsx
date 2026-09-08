@@ -8,7 +8,7 @@ import FaqSection from "@/components/sections/FaqSection";
 export const metadata: Metadata = {
   title: "Car Detailing & Ceramic Coating Near Sarasota FL | North Port Car Wash",
   description:
-    "Professional ceramic coating, paint correction & detailing for Sarasota, FL vehicles. North Port Car Wash is 35 min south on US-41 at 14164 S Tamiami Trail. Open daily 7 AM–7 PM. (941) 564-6447.",
+    "Professional ceramic coating, paint correction & detailing for Sarasota, FL vehicles. North Port Car Wash is 35 min south on US-41 at 14164 S Tamiami Trail. Open daily 7 AM–7 PM. (941) 800-8198.",
   alternates: { canonical: `${BUSINESS.siteUrl}/locations/sarasota` },
   openGraph: {
     title: "Ceramic Coating & Detailing Near Sarasota FL | North Port Car Wash",
@@ -31,12 +31,12 @@ const FAQS = [
   {
     question: "Do you offer ceramic coating for Sarasota-area vehicles?",
     answer:
-      "Yes — ceramic coating is one of our most popular services for vehicles from the Sarasota and Longboat Key area. The Gulf Coast salt air and UV exposure accelerate paint degradation, and a ceramic coating provides 2–5 years of protection. Call (941) 564-6447 to schedule a consultation.",
+      "Yes — ceramic coating is one of our most popular services for vehicles from the Sarasota and Longboat Key area. The Gulf Coast salt air and UV exposure accelerate paint degradation, and a ceramic coating provides 2–5 years of protection. Call (941) 800-8198 to schedule a consultation.",
   },
   {
     question: "Can I schedule detailing from Sarasota without making a special trip?",
     answer:
-      "Many Sarasota customers drop their vehicle off while running errands in North Port or Port Charlotte. We are open daily 7 AM – 7 PM and can accommodate same-week appointments in most cases. Call (941) 564-6447 to schedule.",
+      "Many Sarasota customers drop their vehicle off while running errands in North Port or Port Charlotte. We are open daily 7 AM – 7 PM and can accommodate same-week appointments in most cases. Call (941) 800-8198 to schedule.",
   },
 ];
 

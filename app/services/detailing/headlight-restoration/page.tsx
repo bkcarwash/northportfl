@@ -53,7 +53,7 @@ export default function HeadlightRestorationPage() {
         {
           question: "Do you restore taillights too?",
           answer:
-            "Taillight restoration is possible on some vehicles depending on the lens material and condition. Call us at (941) 564-6447 to ask about your specific vehicle.",
+            "Taillight restoration is possible on some vehicles depending on the lens material and condition. Call us at (941) 800-8198 to ask about your specific vehicle.",
         },
       ]}
       relatedServices={[

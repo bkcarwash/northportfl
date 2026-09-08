@@ -6,12 +6,12 @@ import ServiceDetailPage from "@/components/sections/ServiceDetailPage";
 export const metadata: Metadata = {
   title: "Ceramic Coating North Port FL | Professional Installer | Call Today",
   description:
-    "Professional ceramic coating in North Port, FL at 14164 S Tamiami Trail. Guards against Florida UV, Gulf salt air & water spots for 2–5 years. Serving Port Charlotte, Venice & Sarasota. Call (941) 564-6447.",
+    "Professional ceramic coating in North Port, FL at 14164 S Tamiami Trail. Guards against Florida UV, Gulf salt air & water spots for 2–5 years. Serving Port Charlotte, Venice & Sarasota. Call (941) 800-8198.",
   alternates: { canonical: `${BUSINESS.siteUrl}/services/detailing/ceramic-coating` },
   openGraph: {
     title: "Ceramic Coating North Port FL | 2–5 Year Paint Protection",
     description:
-      "Professional ceramic coating installer in North Port, FL. Protects against UV, salt air & water spots. Call (941) 564-6447 for pricing.",
+      "Professional ceramic coating installer in North Port, FL. Protects against UV, salt air & water spots. Call (941) 800-8198 for pricing.",
   },
 };
 

@@ -144,7 +144,7 @@ export default function ServicesHubPage() {
                 <span className="text-xs text-[#A8B5C8] uppercase tracking-widest font-semibold">Track 2</span>
               </div>
               <h2 className="font-['Barlow',sans-serif] font-bold text-3xl text-white">Professional Detailing</h2>
-              <p className="text-[#8C95A6] mt-1">By appointment · Call (941) 564-6447 to schedule</p>
+              <p className="text-[#8C95A6] mt-1">By appointment · Call (941) 800-8198 to schedule</p>
             </div>
           </div>
 

@@ -26,7 +26,7 @@ const FAQS = [
   {
     question: "Is the detailing service worth the drive from Venice?",
     answer:
-      "For professional detailing services like paint correction, ceramic coating, or full detail packages, many customers from the Venice and Nokomis area find it worth the trip. Call us at (941) 564-6447 to schedule and discuss what we can do for your vehicle.",
+      "For professional detailing services like paint correction, ceramic coating, or full detail packages, many customers from the Venice and Nokomis area find it worth the trip. Call us at (941) 800-8198 to schedule and discuss what we can do for your vehicle.",
   },
 ];
 

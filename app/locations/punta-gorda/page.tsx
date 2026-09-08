@@ -25,7 +25,7 @@ const FAQS = [
   },
   {
     question: "Can you do fleet detailing for Charlotte County businesses?",
-    answer: "Yes — we serve commercial customers from throughout Charlotte County including Punta Gorda. Call (941) 564-6447 to discuss fleet programs and scheduling.",
+    answer: "Yes — we serve commercial customers from throughout Charlotte County including Punta Gorda. Call (941) 800-8198 to discuss fleet programs and scheduling.",
   },
 ];
 

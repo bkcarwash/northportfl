@@ -9,7 +9,7 @@ import StarRating from "@/components/ui/StarRating";
 export const metadata: Metadata = {
   title: "Car Wash & Detailing Near Port Charlotte FL | 10 Min on US-41",
   description:
-    "Port Charlotte's closest full-service car wash — just 10 min south on US-41. Touchless wash, free vacuum bays, ceramic coating & detailing at 14164 S Tamiami Trail. Open daily 7 AM–7 PM. (941) 564-6447.",
+    "Port Charlotte's closest full-service car wash — just 10 min south on US-41. Touchless wash, free vacuum bays, ceramic coating & detailing at 14164 S Tamiami Trail. Open daily 7 AM–7 PM. (941) 800-8198.",
   alternates: { canonical: `${BUSINESS.siteUrl}/locations/port-charlotte` },
   openGraph: {
     title: "Car Wash & Detailing Near Port Charlotte FL | North Port Car Wash",
@@ -37,7 +37,7 @@ const FAQS = [
   {
     question: "Do you offer detailing for Port Charlotte customers?",
     answer:
-      "Yes — Port Charlotte customers are welcome to schedule professional detailing appointments at our North Port location. Call (941) 564-6447 to book. We offer everything from an Express Detail to full ceramic coating packages.",
+      "Yes — Port Charlotte customers are welcome to schedule professional detailing appointments at our North Port location. Call (941) 800-8198 to book. We offer everything from an Express Detail to full ceramic coating packages.",
   },
 ];
 

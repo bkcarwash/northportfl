@@ -36,7 +36,7 @@ const FAQS = [
   {
     question: "Can I use the vacuums without buying a wash?",
     answer:
-      "The free vacuum bays are a benefit included with any paid wash purchase. If you are only looking for a standalone vacuum, please call us at (941) 564-6447 to ask about availability.",
+      "The free vacuum bays are a benefit included with any paid wash purchase. If you are only looking for a standalone vacuum, please call us at (941) 800-8198 to ask about availability.",
   },
 ];
 

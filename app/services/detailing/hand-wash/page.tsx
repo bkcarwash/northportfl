@@ -55,7 +55,7 @@ export default function HandWashPage() {
         {
           question: "Do I need an appointment?",
           answer:
-            "Yes — premium hand wash is a detailing service requiring an appointment. Call us at (941) 564-6447 to schedule. If you need a quick wash without scheduling, our 24/7 touchless bay or drive-through tunnel is available.",
+            "Yes — premium hand wash is a detailing service requiring an appointment. Call us at (941) 800-8198 to schedule. If you need a quick wash without scheduling, our 24/7 touchless bay or drive-through tunnel is available.",
         },
       ]}
       relatedServices={[

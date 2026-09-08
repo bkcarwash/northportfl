@@ -22,9 +22,9 @@ export const BUSINESS = {
   },
 
   phone: {
-    display: "(941) 564-6447",
-    href: "tel:+19415646447",
-    e164: "+19415646447",
+    display: "(941) 800-8198",
+    href: "tel:+19418008198",
+    e164: "+19418008198",
   },
 
   rating: {
@@ -47,11 +47,11 @@ export const BUSINESS = {
   },
 
   whatsapp: {
-    number: "19415646447",
-    href: "https://wa.me/19415646447",
-    hrefBooking: "https://wa.me/19415646447?text=Hi!%20I%27d%20like%20to%20book%20a%20car%20wash%20or%20detailing%20appointment%20at%20North%20Port%20Car%20Wash.%20Please%20let%20me%20know%20your%20availability!",
-    hrefDetailing: "https://wa.me/19415646447?text=Hi!%20I%27d%20like%20to%20schedule%20a%20professional%20detailing%20appointment%20(ceramic%20coating%2C%20full%20detail%2C%20paint%20correction).%20Can%20you%20share%20pricing%20and%20availability%3F",
-    hrefWash: "https://wa.me/19415646447?text=Hi!%20Quick%20question%20about%20North%20Port%20Car%20Wash%20-%20do%20you%20have%20any%20current%20wash%20specials%20or%20membership%20deals%3F",
+    number: "19418008198",
+    href: "https://wa.me/19418008198",
+    hrefBooking: "https://wa.me/19418008198?text=Hi!%20I%27d%20like%20to%20book%20a%20car%20wash%20or%20detailing%20appointment%20at%20North%20Port%20Car%20Wash.%20Please%20let%20me%20know%20your%20availability!",
+    hrefDetailing: "https://wa.me/19418008198?text=Hi!%20I%27d%20like%20to%20schedule%20a%20professional%20detailing%20appointment%20(ceramic%20coating%2C%20full%20detail%2C%20paint%20correction).%20Can%20you%20share%20pricing%20and%20availability%3F",
+    hrefWash: "https://wa.me/19418008198?text=Hi!%20Quick%20question%20about%20North%20Port%20Car%20Wash%20-%20do%20you%20have%20any%20current%20wash%20specials%20or%20membership%20deals%3F",
   },
 
   siteUrl: "https://www.northportcardetailing.com",

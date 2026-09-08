@@ -22,7 +22,7 @@ const HOME_FAQS = [
   {
     question: "Is there a touchless car wash near me in North Port, FL?",
     answer:
-      "Yes — North Port Car Wash at 14164 S Tamiami Trail (US-41), North Port, FL 34287 offers a touchless wash bay that is available 24 hours a day, 7 days a week. The touchless bay uses high-pressure water jets and foam to clean without any contact with your vehicle's paint. No appointment needed. Phone: (941) 564-6447.",
+      "Yes — North Port Car Wash at 14164 S Tamiami Trail (US-41), North Port, FL 34287 offers a touchless wash bay that is available 24 hours a day, 7 days a week. The touchless bay uses high-pressure water jets and foam to clean without any contact with your vehicle's paint. No appointment needed. Phone: (941) 800-8198.",
   },
   {
     question: "Is there a car wash with free vacuums near me?",
@@ -32,7 +32,7 @@ const HOME_FAQS = [
   {
     question: "How much is a car wash in North Port, FL?",
     answer:
-      "North Port Car Wash offers competitively priced wash packages ranging from a basic exterior wash to premium wax and sealant combinations. Pricing is displayed at the kiosk on arrival. For current pricing or to ask about membership plans, call (941) 564-6447.",
+      "North Port Car Wash offers competitively priced wash packages ranging from a basic exterior wash to premium wax and sealant combinations. Pricing is displayed at the kiosk on arrival. For current pricing or to ask about membership plans, call (941) 800-8198.",
   },
   {
     question: "Is North Port Car Wash open on Sundays?",
@@ -47,17 +47,17 @@ const HOME_FAQS = [
   {
     question: "How much does ceramic coating cost in North Port, FL?",
     answer:
-      "Ceramic coating pricing at North Port Car Wash depends on vehicle size and paint condition. We offer both standalone ceramic coating and a full Ceramic Coating Package that includes clay bar and paint correction. Call (941) 564-6447 for a quote or book a consultation on WhatsApp.",
+      "Ceramic coating pricing at North Port Car Wash depends on vehicle size and paint condition. We offer both standalone ceramic coating and a full Ceramic Coating Package that includes clay bar and paint correction. Call (941) 800-8198 for a quote or book a consultation on WhatsApp.",
   },
   {
     question: "Do I need an appointment for a car wash?",
     answer:
-      "No appointment is needed for the express tunnel wash — just drive in during business hours or use the 24/7 touchless bay. Detailing services (full interior/exterior detail, ceramic coating, paint correction) are by appointment. Call (941) 564-6447 to schedule.",
+      "No appointment is needed for the express tunnel wash — just drive in during business hours or use the 24/7 touchless bay. Detailing services (full interior/exterior detail, ceramic coating, paint correction) are by appointment. Call (941) 800-8198 to schedule.",
   },
   {
     question: "Does North Port Car Wash offer unlimited wash memberships?",
     answer:
-      "Yes. The unlimited wash membership lets you wash your car as often as you like for one flat monthly rate. No contracts, cancel any time. Call (941) 564-6447 or visit us at 14164 S Tamiami Trail to sign up.",
+      "Yes. The unlimited wash membership lets you wash your car as often as you like for one flat monthly rate. No contracts, cancel any time. Call (941) 800-8198 or visit us at 14164 S Tamiami Trail to sign up.",
   },
   {
     question: "What is the punch card program?",

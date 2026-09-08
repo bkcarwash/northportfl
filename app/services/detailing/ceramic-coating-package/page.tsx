@@ -8,12 +8,12 @@ import FaqSection from "@/components/sections/FaqSection";
 export const metadata: Metadata = {
   title: "Ceramic Coating Package North Port FL | Full Prep + Application",
   description:
-    "Complete ceramic coating package in North Port, FL: decontamination, clay bar, paint correction & professional coating application. 2–5 year protection. Serving Port Charlotte & Sarasota County. Call (941) 564-6447.",
+    "Complete ceramic coating package in North Port, FL: decontamination, clay bar, paint correction & professional coating application. 2–5 year protection. Serving Port Charlotte & Sarasota County. Call (941) 800-8198.",
   alternates: { canonical: `${BUSINESS.siteUrl}/services/detailing/ceramic-coating-package` },
   openGraph: {
     title: "Ceramic Coating Package North Port FL | Prep + Application Bundle",
     description:
-      "Full ceramic coating package: clay bar, paint correction & professional coating. 2–5 year protection in North Port, FL. Call (941) 564-6447.",
+      "Full ceramic coating package: clay bar, paint correction & professional coating. 2–5 year protection in North Port, FL. Call (941) 800-8198.",
   },
 };
 

@@ -5,12 +5,12 @@ import ServiceDetailPage from "@/components/sections/ServiceDetailPage";
 export const metadata: Metadata = {
   title: "Paint Correction Near Me — North Port FL | Swirl & Scratch Removal",
   description:
-    "Professional paint correction near North Port, FL. Machine polishing removes swirl marks, scratches & oxidation at 14164 S Tamiami Trail. Serving Port Charlotte, Venice & Sarasota. Call (941) 564-6447.",
+    "Professional paint correction near North Port, FL. Machine polishing removes swirl marks, scratches & oxidation at 14164 S Tamiami Trail. Serving Port Charlotte, Venice & Sarasota. Call (941) 800-8198.",
   alternates: { canonical: `${BUSINESS.siteUrl}/services/detailing/paint-correction` },
   openGraph: {
     title: "Paint Correction Near North Port FL | Swirl Mark Removal",
     description:
-      "Remove swirl marks, scratches & oxidation with machine polishing. Professional paint correction in North Port, FL. Call (941) 564-6447.",
+      "Remove swirl marks, scratches & oxidation with machine polishing. Professional paint correction in North Port, FL. Call (941) 800-8198.",
   },
 };
 

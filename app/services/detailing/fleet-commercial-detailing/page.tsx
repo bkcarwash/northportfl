@@ -5,7 +5,7 @@ import ServiceDetailPage from "@/components/sections/ServiceDetailPage";
 export const metadata: Metadata = {
   title: "Fleet & Commercial Vehicle Detailing | North Port Car Wash",
   description:
-    "Commercial fleet detailing in North Port, FL. Scheduled detailing for company vehicles, work trucks, vans, and fleets. Custom programs available. Call (941) 564-6447.",
+    "Commercial fleet detailing in North Port, FL. Scheduled detailing for company vehicles, work trucks, vans, and fleets. Custom programs available. Call (941) 800-8198.",
   alternates: { canonical: `${BUSINESS.siteUrl}/services/detailing/fleet-commercial-detailing` },
 };
 
@@ -39,7 +39,7 @@ export default function FleetDetailingPage() {
         {
           question: "Can you handle a fleet of 10–20 vehicles?",
           answer:
-            "Yes — we handle fleet programs of various sizes. The best approach is to call us at (941) 564-6447 and discuss your fleet size, vehicle types, frequency needs, and budget. We can put together a custom program that works for your business.",
+            "Yes — we handle fleet programs of various sizes. The best approach is to call us at (941) 800-8198 and discuss your fleet size, vehicle types, frequency needs, and budget. We can put together a custom program that works for your business.",
         },
         {
           question: "Do you offer discounts for fleet accounts?",

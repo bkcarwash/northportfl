@@ -19,7 +19,7 @@ const FAQS = [
   },
   {
     question: "Is there a full-service car wash near Englewood?",
-    answer: "North Port Car Wash is one of the closest full-service options for Englewood residents — offering a tunnel wash, free vacuums, and professional detailing by appointment. Call (941) 564-6447 to schedule.",
+    answer: "North Port Car Wash is one of the closest full-service options for Englewood residents — offering a tunnel wash, free vacuums, and professional detailing by appointment. Call (941) 800-8198 to schedule.",
   },
   {
     question: "Do you serve Lemon Bay area customers?",

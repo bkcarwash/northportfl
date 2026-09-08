@@ -47,7 +47,7 @@ export default function WheelRimDetailingPage() {
         {
           question: "Do you clean the inside of the rim (the barrel)?",
           answer:
-            "We clean the accessible parts of the barrel during a standard wheel detail. Full inside-barrel cleaning requires removing the wheel from the vehicle — this is available as a more comprehensive service. Call (941) 564-6447 to inquire.",
+            "We clean the accessible parts of the barrel during a standard wheel detail. Full inside-barrel cleaning requires removing the wheel from the vehicle — this is available as a more comprehensive service. Call (941) 800-8198 to inquire.",
         },
         {
           question: "What causes the brown streaks on my rims?",

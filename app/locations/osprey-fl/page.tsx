@@ -8,7 +8,7 @@ import FaqSection from "@/components/sections/FaqSection";
 export const metadata: Metadata = {
   title: "Touchless Car Wash Near Osprey FL | Free Vacuums | North Port Car Wash",
   description:
-    "Osprey's nearest full-service car wash — 15 min south on US-41. Touchless wash, free vacuum bays, ceramic coating & detailing at 14164 S Tamiami Trail, North Port. Open daily 7 AM–7 PM. (941) 564-6447.",
+    "Osprey's nearest full-service car wash — 15 min south on US-41. Touchless wash, free vacuum bays, ceramic coating & detailing at 14164 S Tamiami Trail, North Port. Open daily 7 AM–7 PM. (941) 800-8198.",
   alternates: { canonical: `${BUSINESS.siteUrl}/locations/osprey-fl` },
   openGraph: {
     title: "Touchless Car Wash Near Osprey FL | Free Vacuums | Open 7 Days",
@@ -31,7 +31,7 @@ const FAQS = [
   {
     question: "Can I get detailing done the same day near Osprey?",
     answer:
-      "Same-day express detailing is sometimes available — call (941) 564-6447 to check availability. For more extensive services like ceramic coating or full detail packages, we recommend booking a few days in advance. We are open daily 7 AM – 7 PM.",
+      "Same-day express detailing is sometimes available — call (941) 800-8198 to check availability. For more extensive services like ceramic coating or full detail packages, we recommend booking a few days in advance. We are open daily 7 AM – 7 PM.",
   },
 ];
 

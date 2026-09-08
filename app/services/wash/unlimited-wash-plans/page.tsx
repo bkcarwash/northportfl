@@ -21,7 +21,7 @@ const FAQS = [
   {
     question: "Is there a contract or commitment?",
     answer:
-      "No long-term contracts. Our unlimited wash membership is month-to-month. You can cancel at any time — call us at (941) 564-6447 to cancel before your next billing date.",
+      "No long-term contracts. Our unlimited wash membership is month-to-month. You can cancel at any time — call us at (941) 800-8198 to cancel before your next billing date.",
   },
   {
     question: "Can I share my membership with a family member?",
@@ -31,7 +31,7 @@ const FAQS = [
   {
     question: "How do I sign up?",
     answer:
-      "Stop by North Port Car Wash at 14164 S Tamiami Trail and speak with our staff, or call us at (941) 564-6447 to set up your membership over the phone. We will activate your plan and link it to your vehicle.",
+      "Stop by North Port Car Wash at 14164 S Tamiami Trail and speak with our staff, or call us at (941) 800-8198 to set up your membership over the phone. We will activate your plan and link it to your vehicle.",
   },
   {
     question: "Is the unlimited membership worth it?",

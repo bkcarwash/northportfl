@@ -30,7 +30,7 @@ const FAQS = [
   {
     question: "Do I need an appointment?",
     answer:
-      "Yes — all detailing services including the express detail require an appointment. Call us at (941) 564-6447 to schedule. Same-day slots may be available depending on current bookings.",
+      "Yes — all detailing services including the express detail require an appointment. Call us at (941) 800-8198 to schedule. Same-day slots may be available depending on current bookings.",
   },
 ];
 

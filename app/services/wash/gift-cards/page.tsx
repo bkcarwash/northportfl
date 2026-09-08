@@ -5,7 +5,7 @@ import ServiceDetailPage from "@/components/sections/ServiceDetailPage";
 export const metadata: Metadata = {
   title: "Car Wash Gift Cards | North Port Car Wash",
   description:
-    "North Port Car Wash gift cards are available in any amount and make a great gift for car owners in North Port, Port Charlotte, Venice, and surrounding areas. Call (941) 564-6447.",
+    "North Port Car Wash gift cards are available in any amount and make a great gift for car owners in North Port, Port Charlotte, Venice, and surrounding areas. Call (941) 800-8198.",
   alternates: { canonical: `${BUSINESS.siteUrl}/services/wash/gift-cards` },
 };
 
@@ -33,7 +33,7 @@ export default function GiftCardsPage() {
         {
           question: "What amounts are gift cards available in?",
           answer:
-            "Gift cards are available in any amount you choose. We do not sell pre-set denomination cards — simply tell us the amount you would like to put on the card. Call (941) 564-6447 or stop by 14164 S Tamiami Trail.",
+            "Gift cards are available in any amount you choose. We do not sell pre-set denomination cards — simply tell us the amount you would like to put on the card. Call (941) 800-8198 or stop by 14164 S Tamiami Trail.",
         },
         {
           question: "Can gift cards be used for detailing services?",
@@ -48,7 +48,7 @@ export default function GiftCardsPage() {
         {
           question: "Are they good for the unlimited membership?",
           answer:
-            "Yes — gift card value can be applied toward a monthly membership. Call us at (941) 564-6447 for details on applying a gift card balance toward membership enrollment.",
+            "Yes — gift card value can be applied toward a monthly membership. Call us at (941) 800-8198 for details on applying a gift card balance toward membership enrollment.",
         },
       ]}
       relatedServices={[
