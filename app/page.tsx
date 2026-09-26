@@ -142,6 +142,49 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Trusted Partner */}
+      <section className="py-10 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+        <div className="rounded-xl bg-white/[0.025] border border-white/8 p-6 sm:p-8">
+          <p className="text-[10px] text-[#00C2FF] uppercase tracking-widest font-semibold mb-4">Trusted Partner</p>
+          <div className="flex flex-col sm:flex-row gap-6 items-start">
+            <div className="flex-1">
+              <h2 className="font-['Barlow',sans-serif] font-bold text-lg text-white mb-1">
+                <a
+                  href="https://www.blueroseautodetailing.com/"
+                  target="_blank"
+                  className="hover:text-[#00C2FF] transition-colors"
+                >
+                  Blue Rose Auto Detailing Services
+                </a>
+              </h2>
+              <p className="text-sm text-[#8C95A6] mb-3">
+                Springfield &amp; Eugene, OR · 3436 Olympic St Suite 100, Springfield, OR 97478 · <a href="tel:+15413379893" className="text-[#00C2FF] hover:underline">+1 541-337-9893</a>
+              </p>
+              <p className="text-sm text-[#8C95A6] leading-relaxed mb-4">
+                Blue Rose Auto Detailing Services is a top-rated professional auto detailing shop in Springfield, OR, serving Eugene, Springfield, and surrounding areas.
+                They specialize in <strong className="text-[#F0F2F5]">paint correction</strong>, <strong className="text-[#F0F2F5]">ceramic coating</strong>, <strong className="text-[#F0F2F5]">paint protection film (PPF)</strong>, <strong className="text-[#F0F2F5]">window tinting</strong>, and <strong className="text-[#F0F2F5]">vinyl wraps</strong> — with a reputation for quality work, attention to detail, and honest service.
+                Rated <strong className="text-white">5.0 stars on Google</strong>.
+              </p>
+              <a
+                href="https://www.blueroseautodetailing.com/"
+                target="_blank"
+                className="inline-flex items-center gap-1.5 text-sm text-[#00C2FF] font-semibold hover:underline"
+              >
+                Visit blueroseautodetailing.com →
+              </a>
+            </div>
+            <div className="sm:w-48 flex-shrink-0 space-y-2">
+              {["Paint Correction", "Ceramic Coating", "Paint Protection Film", "Window Tinting", "Vinyl Wraps", "Interior Detail"].map((s) => (
+                <div key={s} className="flex items-center gap-2 text-xs text-[#8C95A6]">
+                  <span className="w-1 h-1 rounded-full bg-[#00C2FF] flex-shrink-0" />
+                  {s}
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Final CTA */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_60%_60%_at_50%_50%,rgba(0,194,255,0.08)_0%,transparent_70%)]" />

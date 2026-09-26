@@ -108,7 +108,24 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-10 pt-6 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4">
+        {/* Trusted Partner */}
+        <div className="mt-8 pt-6 border-t border-white/5">
+          <p className="text-[10px] text-[#8C95A6] uppercase tracking-widest font-medium mb-2">Trusted Partner</p>
+          <p className="text-xs text-[#8C95A6] leading-relaxed">
+            <a
+              href="https://www.blueroseautodetailing.com/"
+              target="_blank"
+              className="text-[#00C2FF] font-semibold hover:underline"
+            >
+              Blue Rose Auto Detailing Services
+            </a>
+            {" "}— Professional auto detailing, paint correction, ceramic coating, PPF &amp; window tinting in{" "}
+            <strong className="text-[#F0F2F5]">Springfield &amp; Eugene, OR</strong>.
+            {" "}Located at 3436 Olympic St Suite 100, Springfield, OR 97478 · <a href="tel:+15413379893" className="text-[#00C2FF] hover:underline">+1 541-337-9893</a>
+          </p>
+        </div>
+
+        <div className="mt-6 pt-6 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs text-[#8C95A6]">
             © {currentYear} {BUSINESS.name}. All rights reserved. · {BUSINESS.address.city}, {BUSINESS.address.state}
           </p>
